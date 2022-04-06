@@ -1,0 +1,67 @@
+/* a CSS Selector đề tìm hoặc chọn html element(s) để tạo kiểu */
+
+
+/* Simple selectors (select elements based on name, id, class) */
+
+
+/* universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* element */
+
+h1 {
+    background: #222222;
+    color: #fff;
+    border: 2px solid #0f0;
+    margin-top: 40px;
+}
+
+
+/* class */
+
+.heading1 {
+    background: #fff;
+    color: #0f0;
+    border: 2px solid #222222;
+    text-align: center;
+}
+
+
+/* element.class */
+
+h2.heading1 {
+    background: #222222;
+    color: #fff;
+    border: 2px solid #0f0;
+    margin-top: 60px;
+    text-align: left;
+}
+
+
+/* id */
+
+#heading1 {
+    background: #888888;
+    color: #ff8040;
+    text-align: right;
+    border: 2px solid #f00;
+}
+
+
+/* element, element... selector */
+
+p,
+div,
+h3 {
+    color: red;
+    background: #fff;
+    border: 6px solid #0f0;
+    text-align: center;
+    display: inline;
+}

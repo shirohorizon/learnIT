@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn CSS Selector</title>
+    <link rel="stylesheet" href="1-selector.css">
+</head>
+
+<body>
+    <!-- universal selector -->
+    <pre>chọn tất cả html element
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }</pre>
+
+    <!-- element selector -->
+    <h1>heading 1 test css element selector </h1>
+    <pre>h1 {
+        background: #222222;
+        color: #fff;
+        border: 2px solid #0f0;
+    }</pre>
+
+    <!-- class selector -->
+    <h1 class="heading1">heading 1 test css class selector, class = heading1</h1>
+    <pre>.heading1 {
+        background: #fff;
+        color: #0f0;
+        border:  2px solid #222222;
+        text-align: center;
+    }
+    </pre>
+
+    <!-- element.class selector -->
+    <h2 class="heading1">heading 2 test css element.class selector, class = heading1</h2>
+    <pre>h2.heading1 {
+        background: #222222;
+        color: #fff;
+        border: 2px solid #0f0;
+        margin-top: 60px;
+        text-align: left;
+    }</pre>
+
+    <!-- id selector -->
+    <h1 id="heading1">heading 1 test css id selector, id = heading1</h1>
+    <pre>#heading1 {
+        background: #888888;
+        color: #ff8040;
+        text-align: right;
+        border: 2px solid #f00;
+    }</pre>
+
+    <!-- element, element... selector -->
+    <p> p :test element, element... selector</p>
+    <div>div :test element, element... selector</div>
+    <h3>h3 :test element, element... selector</h3>
+    <pre>p,
+        div,
+        h3 {
+            color: red;
+            background: #fff;
+            border: 6px solid #0f0;
+            text-align: center;
+            display: inline;
+        }</pre>
+</body>
+
+</html>
