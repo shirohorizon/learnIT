@@ -1,7 +1,7 @@
 /* a CSS Selector đề tìm hoặc chọn html element(s) để tạo kiểu */
 
 
-/* Simple selectors (select elements based on name, id, class) */
+/* Simple selectors (select elements based on name, id, class, element.class, (element, element...), *) */
 
 
 /* universal */
