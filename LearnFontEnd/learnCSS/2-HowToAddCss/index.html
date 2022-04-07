@@ -1,0 +1,43 @@
+<!-- html: hyper text markup language, ngôn ngữ đánh dấu tiêu chuẩn -> tạo website, mô tả bố cục, series element,  -->
+<!-- html element: đánh dấu nội dung, chỉ trình duyệt cách hiển thị -->
+<!-- khai báo kiểu tài liệu html -->
+<!DOCTYPE html>
+<!-- <!DOCTYPE html> khai báo của html5-->
+<html lang="en">
+<!-- start -->
+<!-- head element vùng chứa meta title script style link base -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn How to Add CSS</title>
+    <link rel="stylesheet" href="2-HowToAddCss.css">
+    <style>
+        .heading {
+            color: blue;
+        }
+    </style>
+</head>
+<!-- body element vùng hiển thị của html doc trên trang web -->
+
+<body>
+    <!-- chúng ta cùng học các thêm css vào 1 tài liệu html -->
+    <!-- có 3 cách để thêm -->
+    <!-- 1 - inline : thêm css vào ngay thuộc tính style của element đó 
+        Exercise: <p style = "color: red">ha ha ha ha</p>
+
+         2 - internal : thêm css vào thẻ style nằm trong thẻ head
+         4 - external : sử dụng link để liên kết với 1 trang css ngoài và thêm css ở đó-->
+
+    <!-- inline -->
+    <h1 style="color:red">title h1 css color = red</h1>
+    <!-- title, subtitle, h1-h6, important h1 -> h6 -->
+    <!-- internal -->
+    <h1 class="heading1">title 1 css color = blue</h1>
+
+    <!-- external -->
+    <h1 class="headingExternal">title 1 css color = yellow</h1>
+</body>
+
+</html>
