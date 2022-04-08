@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Where To Javascript</title>
+</head>
+<script>
+    // js is here
+    function myFunction1() {
+        document.getElementById("demo1").innerHTML = "paragraph changed";
+    }
+</script>
+
+<body>
+    <!-- trong tài liệu html javacript nằm giữa 2 thẻ <script></script> đặt trong head hoặc body-->
+    <p id="demo1">a paragraph</p>
+    <p id="demo2">a paragraph</p>
+    <button type="button" onclick="myFunction1()">try it</button>
+    <button type="button" onclick="myFunction2()">try it</button>
+
+    <!-- test external js -->
+    <p id="demo3">test external javascript</p>
+    <button type="button" onclick="myFunction3()">try it</button>
+    <!-- việc đặt js cuối body sẽ cải thiện tốc độ hiển thị, vì việc diễn giải các tập js sẽ làm giảm tốc độ hiển thị -->
+    <script>
+        // js is here
+        function myFunction2() {
+            document.getElementById("demo2").innerHTML = "ha ha ha javascript test"
+        }
+    </script>
+    <!-- còn một cách thêm js nữa là external js, 
+        chúng ta có thể viết js ở bên ngoài và 
+        liên kết bằng các thêm thuộc tính src vô thẻ script và ghi đường dẫn vào. -->
+    <!-- exercise: -->
+    <script src="1-WhereToJs.js"></script>
+</body>
+
+</html>
