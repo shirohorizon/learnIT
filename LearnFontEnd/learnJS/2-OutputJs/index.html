@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Output js</title>
+</head>
+
+<body>
+    <!-- javacript có thể hiển thị theo nhiều cách khác nhau -->
+    <!-- 1-InnerHTML : để có thể sử dụng innerHTML ta cần xác định phần tử html = getElementById
+    rồi sử dụng innerHTML để in nội dung-->
+    <!-- exercise -->
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "output innerHTML";
+        // 2: .write() : dùng với mục đích thử nghiệm
+        // sử dụng write sau khi trang được tải sẽ xóa tất cả html hiện tại
+        document.write("ha ha test output write");
+
+        // 3: window.alert() : sử dụng hộp cảnh báo để hiển thị dữ liệu
+        // window cũng có thể bị loại bỏ. ex alert(5 + 6);
+        window.alert("đây là window.alert() ha ha");
+
+        // 4: console.log() : thường được dùng để gỡ lỗi, nội dung sẽ được hiển thị trong của sổ terminal hoặc console
+        console.log("this is console.log")
+    </script>
+</body>
+
+</html>
