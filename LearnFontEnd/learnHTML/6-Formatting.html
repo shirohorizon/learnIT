@@ -1,0 +1,80 @@
+<!-- Hyper text markup language, ngôn ngữ đánh dấu tiêu chuẩn -> create website <- mô tả bố cục, tập hợp element
+    html element đánh dấu nội dung? "this is heading", "this is paragraph"... -> chỉ cho trình duyệt cách hiển thị -->
+
+<!-- khai báo kiểu tài liệu, 1 lần trên cùng, no up no low, tránh lỗi, html5 = <!DOCTYPE html> -->
+<!DOCTYPE html>
+
+<!-- start html document -->
+<html lang="en">
+<!-- all element can have attribute, attribute bổ sung thông tin element, trong start tag, name = "value" -->
+
+<head>
+    <!-- vùng chứa meta title script style link base -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* internal css */
+    </style>
+    <script>
+        // js is here
+    </script>
+    <!-- <link rel="stylesheet" href="">: external css -->
+</head>
+
+<body>
+    <!-- vùng hiển thị của html doc trên webpage -->
+    <!-- element <startTag> content  </endTag>: empty element <startTag> no content no endTag, k hoa thường, tiêu chuẩn thường -->
+    <!-- heading title subtitle h1 - h6 important h1 -> h6  -->
+    <!-- paragraph : p element is defined a paragraph, no space,: hr empty element đường kẻ ngang: br empty element xuống dòng
+        pre element : giữa nguyên định dạng văn bản -->
+
+
+    <!-- css colors: rgb, rgba, hex, hls, hlsa
+        r: red 0 -> 255
+        g: green 0 -> 255
+        b: blue 0 -> 255
+        a: alpha: opacity 0 -> 1
+        hex: #rrggbb : rr: red, gg: green, bb: blue -> 00 -> ff
+        h: 0 -> 360, 0->120: red, 120->240:green, 240->360:blue,
+        l: 0% -> 100%, 0% xám, 100% đầu đủ
+        s: 0% -> 100%, 0% đen, 100% trắng, 50% nothing -->
+
+    <!-- hôm nay chúng ta sẽ học về formatting 
+        html có 1 số element xác định văn bản đặc biệt-->
+
+    <b></b>
+    <!-- b in đậm văn bẳn -->
+    <i></i>
+    <!-- i in nghiên văn bản -->
+    <strong></strong>
+    <!-- strong in đậm xác định quan trọng -->
+    <em></em>
+    <!-- in nghiên nhấn mạnh -->
+    <mark></mark>
+    <!-- đánh dấu -->
+    <small></small>
+    <!-- xác định văn bản nhỏ hơn -->
+    <del></del>
+    <!-- xác định văn bản bị xóa khỏi tài liệu, phần bị xóa sẽ bị gạch 1 dòng qua văn bản -->
+    <ins></ins>
+    <!-- xác định văn bản được chèn, gạch dưới -->
+    <sub></sub>
+    <!-- xác định văn bản nhỏ hơn ở bên dưới, ex các công thức hóa học -->
+    <sup></sup>
+    <!-- xác dịnh văn bản nhỏ hơn ở trên, ex mũ thừa -->
+    <script>
+        // js is here
+        // cuối body tăng tốc hiển thị
+        // innerHTML
+        // document.write()
+        // window.alert(), alert()
+        // console.log()
+    </script>
+    <!-- <script src=""></script> external js-->
+</body>
+
+<!-- end html doc -->
+
+</html>
