@@ -1,0 +1,26 @@
+/* CSS Background có 5 properties: 
+    -background-color: set màu nền
+    -background-image: set ảnh nền
+    -background-repeat: 
+    -background-attachment
+    -background-position
+    -background */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.backgroundTest {
+    width: 500px;
+    height: 500px;
+    background: #ff8080 url('twitter.png') no-repeat center;
+}
