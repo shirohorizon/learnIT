@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Javascript Variables</title>
+</head>
+
+<body>
+    <h3 class="demo"></h3>
+    <h3 class="demo2"></h3>
+    <h3 class="demo3"></h3>
+    <script>
+        var s = "var variable"; // Re declared: yes; re set: yes; block scope: no; Declared before use: no
+        let s1 = "let variable"; // Re declared: no; re set: yes; block scope: yes; Declared before use: yes
+        const s2 = "const variable"; // Re declared: no; re set: no; block scope: yes; Declared before use: yes
+        document.querySelector(".demo").innerHTML = s;
+        document.querySelector(".demo2").innerHTML = s1;
+        document.querySelector(".demo3").innerHTML = s2;
+    </script>
+</body>
+
+</html>
