@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn link HTML</title>
+</head>
+
+<body>
+    <!-- hôm nay chúng ta cùng học về liên kết (link) trong html -->
+    <!-- liên kết trong html là 1 siêu liên kết -->
+    <!-- xác định bằng phần tử a -->
+    <!-- exercise -->
+    <a href="https://www.w3schools.com/html/html_links.asp">link</a>
+    <!-- link k nhât thiết là 1 văn bản, cũng có thể là ảnh v.v.. -->
+    <!-- href attribute là thuộc tính quan trọng nhất nó xác định đích đến của liên kết -->
+
+    <!-- liên kết chưa truy cập có màu xanh, đã truy cập có màu tím, lúc click có màu đỏ: có thể thay đổi bằng css -->
+
+    <!-- target attribute: xác định nơi liên kết được mở: default là tại window/tag hiện tại. -->
+
+    <!-- default target = "self" -->
+    <a href="https://www.w3schools.com/html/html_links.asp" target="self">default target link</a>
+
+    <!-- mở trong 1 window/tab mới: target = "blank" -->
+    <a href="https://www.w3schools.com/html/html_links.asp" target="blank">blank target link</a>
+    <a href="https://www.w3schools.com/html/html_links.asp" target="parent">parent target link</a>
+    <a href="https://www.w3schools.com/html/html_links.asp" target="top">top target link</a>
+
+    <!-- absolute URLs: đường dẫn tuyệt đối là địa chỉ trang web đầy đủ -->
+    <!-- relative URLs: đường dẫn tương đối là liên kết cục bộ đến cùng 1 trang trong trang web -->
+
+    <!-- exercise -->
+    <!-- absolute -->
+    <a href="https://www.w3schools.com/html/html_links.asp" target="top">absolute URL</a>
+    <!-- relative -->
+    <a href="index.html">relative URL</a>
+
+    <!-- sử dụng mailto: trong href để liên kết đến 1 email -->
+    <!-- exercise -->
+    <a href="mailto:shiroxhorizon8@gmail.com">shiroxorizon8@gmail.com</a>
+</body>
+
+</html>
